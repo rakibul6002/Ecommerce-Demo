@@ -85,10 +85,7 @@ const Header = () => {
             {/* cart */}
             <div className='mx-10 text-3xl cursor-pointer '>
                             <FaShoppingCart/>
-                            {/* <div className='bg-gray-900 text-gray-200 rounded-full flex w-6 h-6 items-center justify-center absolute right-0 top-0'>
-
-                            <p className='text-sm'>0</p>
-                            </div> */}
+                        
             </div>
         </div>
     </div>

@@ -7,7 +7,7 @@ import Image from 'next/image';
 const Banner = () => {
   return (
     <div>
-      <Carousel >
+      <Carousel autoPlay={true} infiniteLoop={true} interval={3000} >
                 <div>
                     <Image src={S1} alt='S1'/>
                 </div>
